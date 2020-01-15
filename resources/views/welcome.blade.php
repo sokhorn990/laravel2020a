@@ -85,11 +85,12 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://localhost/web2020a/public/our_action">Our Actions</a>
-                    <a href="http://localhost/web2020a/public/about_us">About Us</a>
-                    <a href="http://localhost/web2020a/public/join_us">Join Us</a>
-                    <a href="http://localhost/web2020a/public/news">News</a>
-                    <a href="http://localhost/web2020a/public/contact_us">Contact Us</a>
+                    <a href="our_action">Our Actions</a>
+                    <a href="join_us">Join Us</a>
+                    <a href="news">News</a>
+                    <a href="contact_us">Contact Us</a>
+                    <a href="about_us">About Us</a>
+                    <a href="customer">Customer</a>
                 </div>
             </div>
         </div>
