@@ -23,6 +23,7 @@ Route::get('/news','pagesController@news');
 Route::get('/contact_us','pagesController@contact_us');
 Route::get('/about_us','pagesController@about_us');
 Route::get('/customer','pagesController@showCustomer');
+Route::get('/customers','pagesController@listCustomer');
 
 
 // Route::get('/contact_us',function(){

@@ -91,6 +91,7 @@
                     <a href="contact_us">Contact Us</a>
                     <a href="about_us">About Us</a>
                     <a href="customer">Customer</a>
+                    <a href="customers">All Customer</a>
                 </div>
             </div>
         </div>

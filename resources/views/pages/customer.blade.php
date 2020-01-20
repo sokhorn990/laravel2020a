@@ -1,7 +1,10 @@
+
 @if (count($teachers)>0)
-    @foreach ($teachers as $teacher)
-    {{$teacher}}<br>
-    @endforeach
+@foreach ($teachers as $teacher)
+<li>{{$teacher}}</li>
+@endforeach
 @else
-    No Customer Yet
+No Customer Yet
 @endif
+
+
