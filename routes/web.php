@@ -23,6 +23,10 @@ Route::get('/news','pagesController@news');
 Route::get('/contact_us','pagesController@contact_us');
 Route::get('/about_us','pagesController@about_us');
 Route::get('/customer','pagesController@showCustomer');
+Route::get('/student','StudentsController@showStudent');
+Route::get('/student','StudentsController@showStudent');
+Route::get('/subject','SubjectsController@showSubject');
+// Route::get('/customer','pagesController@listCustomer');
 
 
 // Route::get('/contact_us',function(){

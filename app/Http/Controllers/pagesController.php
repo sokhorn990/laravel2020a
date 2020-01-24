@@ -27,7 +27,17 @@ class pagesController extends Controller
         return view('pages.about_us',compact('about'));
     }
     public function showCustomer(){
-        $teachers = ['Chandaraty', 'Maly','Samphas'];
-        return view('pages.customer',compact('teachers'));
+        $customer = ['Chandaraty', 'Maly','Samphas'];
+        return view('pages.customer',compact('customer'));
+    }
+    public function listCustomer(){
+        // $teachers = ['Chandaraty', 'Maly','Samphas'];
+        $StudentsController = array(
+            array(0, 'Chandaraty','chandaraty@example.org'),
+            array( 1,'Maly','maly@example.org'),
+            array(2,'Samphas','samphas@example.org'),
+            array( 3,'Donat', 'donat@example.org')
+        );
+        return view('pages.customer',compact('StudentsController'));
     }
 }
